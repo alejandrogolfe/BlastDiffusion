@@ -2,12 +2,12 @@
 
 The official implementation of [BlastDiffusion: A Latent Diffusion Model for Generating Synthetic Embryo Images to Address Data Scarcity in In Vitro Fertilization](https://link.springer.com/chapter/10.1007/978-3-031-98688-8_15)  
 
-[Alejandro Golfe](https://www.upv.es/ficha-personal/algolsan), [Natalia P. García-de-la-Puente](https://scholar.google.es/citations?user=), [Adrián Colomer](https://scholar.google.es/citations?user=U6BEiIEAAAAJ&hl=es&oi=ao), [Valery Naranjo](https://scholar.google.es/citations?user=jk4XsG0AAAAJ&hl=es&oi=ao)
+[Alejandro Golfe](https://www.upv.es/ficha-personal/algolsan), [Natalia P. García-de-la-Puente](https://scholar.google.es/citations?user=](https://www.upv.es/ficha-personal/napegar), [Adrián Colomer](https://scholar.google.es/citations?user=U6BEiIEAAAAJ&hl=es&oi=ao), [Valery Naranjo](https://scholar.google.es/citations?user=jk4XsG0AAAAJ&hl=es&oi=ao)
 
 | [Paper](https://link.springer.com/chapter/10.1007/978-3-031-98688-8_15) | [Code](https://github.com/alejandrogolfe/BlastDiffusion) |
 
 ---
-![Model Diagram](images/main.png)
+![Model Diagram](Methodology.jpg)
 
 
 ## Overview
