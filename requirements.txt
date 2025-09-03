@@ -1,0 +1,7 @@
+accelerate==1.0.1
+openpyxl
+wandb
+transformers
+diffusers
+scipy
+opencv-python==4.8.0.74
