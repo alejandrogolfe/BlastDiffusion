@@ -57,6 +57,7 @@ The main components of this project are:
 - `train_ddpm_cond.py`: Main script for training.
 
 4. Configuration
+   
 The `dataset_params` section in `config/embryo.yaml` specifies the settings for loading and processing embryo images in the BlastDiffusion pipeline. Below is a description of each parameter:
 
 - `load_latents: False`  
@@ -88,6 +89,34 @@ The `dataset_params` section in `config/embryo.yaml` specifies the settings for 
     Directory where the raw embryo images are stored.
   - `im_channels: 3`  
     Number of channels in the input images (3 for RGB).
+
+
+
+The `train_params` section in the configuration file defines the key parameters used for training the BlastDiffusion Latent Diffusion Model (LDM). Each parameter is explained below:
+
+- `seed: 1111`  
+  The random seed used to ensure reproducibility of training results.
+
+- `task_name: '/workspace/results/output'`  
+  Directory where training outputs, checkpoints, and logs will be saved.
+
+- `ldm_batch_size: 24`  
+  Batch size used for training the Latent Diffusion Model. A larger batch size may improve training stability but requires more GPU memory.
+
+- `num_samples: 4`  
+  Number of samples to generate during validation or evaluation steps.
+
+- `ldm_validate_epochs: 4`  
+  Frequency (in epochs) at which the model will be validated using the validation set. In this case, validation occurs every 4 epochs.
+
+- `ldm_lr: 0.0005`  
+  Learning rate for training the Latent Diffusion Model.
+
+- `ldm_ckpt_name: 'best_ddpm_ckpt.pth'`  
+  Name of the checkpoint file used for saving the best model during training.
+
+- `resume_training: True`  
+  Whether to resume training from an existing checkpoint if available. Setting this to `True` allows continuation of interrupted training without starting from scratch.
 
 
 ## Acknowledgment
