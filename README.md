@@ -90,4 +90,25 @@ The `dataset_params` section in `config/embryo.yaml` specifies the settings for 
     Number of channels in the input images (3 for RGB).
 
 
+## Acknowledgment
+This repository is mainly based on [StableDiffusion-PyTorch]([https://github.com/sthalles/SimCLR](https://github.com/explainingai-code/StableDiffusion-PyTorch)) code base. We sincerely thank prior authors on this topic for their code base.
 
+## Citation
+
+If you use this code in your research, please cite it appropriately.
+
+```bibtex
+@inproceedings{golfe2025blastdiffusion,
+  title={BlastDiffusion: A Latent Diffusion Model for Generating Synthetic Embryo Images to Address Data Scarcity in In Vitro Fertilization},
+  author={Golfe, Alejandro and Garc{\'\i}a-de-la-Puente, Natalia P and Colomer, Adri{\'a}n and Naranjo, Valery},
+  booktitle={Annual Conference on Medical Image Understanding and Analysis},
+  pages={205--217},
+  year={2025},
+  organization={Springer}
+}
+```
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
