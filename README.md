@@ -120,7 +120,7 @@ The `train_params` section in the configuration file defines the key parameters 
 
 
 ## Acknowledgment
-This repository is mainly based on [StableDiffusion-PyTorch]([https://github.com/sthalles/SimCLR](https://github.com/explainingai-code/StableDiffusion-PyTorch)) code base. We sincerely thank prior authors on this topic for their code base.
+This repository is mainly based on [StableDiffusion-PyTorch](https://github.com/explainingai-code/StableDiffusion-PyTorch) code base. We sincerely thank prior authors on this topic for their code base.
 
 ## Citation
 
@@ -140,4 +140,4 @@ If you use this code in your research, please cite it appropriately.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) file for details.
