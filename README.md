@@ -27,7 +27,7 @@ These results highlight the potential of diffusion models in reproductive medici
 1. Clone this repository:
 
 ```bash
-git clone <repository-url>](https://github.com/alejandrogolfe/BlastDiffusion
+git clone <repository-url>](https://github.com/alejandrogolfe/BlastDiffusion)
 ```
 
 2. Install dependencies
